@@ -1,0 +1,21 @@
+{
+  "name": "discord-bot",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/dotenv": "^8.2.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^2.3.0",
+    "axios": "^1.6.8",
+    "crypto-js": "^4.2.0",
+    "discord-api-types": "^0.37.84",
+    "discord.js": "^14.15.2",
+    "dotenv": "^16.4.5",
+    "googleapis": "^137.1.0"
+  }
+}
